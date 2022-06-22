@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Comfortaa', cursive;
 }
 
 .nav {
@@ -62,7 +63,37 @@
     margin: 2vw;
     width: 350px;
     min-width: 310px;
-    height: 200px;
+    height: 310px;
+}
+
+.inicio article:first-child {
+    background-image: url(./TortaDorada.jpeg);
+    background-size: cover;
+}
+
+.inicio article:nth-child(2) {
+    background-image: url(./CupCake.jpeg);
+    background-size: cover;
+}
+
+.inicio article:nth-child(3) {
+    background-image: url(./CupCake.jpeg);
+    background-size: cover;
+}
+
+.inicio article:nth-child(4) {
+    background-image: url(./CupCake.jpeg);
+    background-size: cover;
+}
+
+.inicio article:nth-child(5) {
+    background-image: url(./CupCake.jpeg);
+    background-size: cover;
+}
+
+.inicio article:nth-child(6) {
+    background-image: url(./CupCake.jpeg);
+    background-size: cover;
 }
 
 .quienes h1 {
@@ -75,6 +106,7 @@
 
 .quienes p {
     padding: 5vw 10vw;
+    letter-spacing: .1vw;
 }
 
 .trabajos h1 {
