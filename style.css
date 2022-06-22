@@ -119,6 +119,7 @@
 .quienes p {
     padding: 5vw 10vw;
     letter-spacing: .1vw;
+    font-size: 20px;
 }
 
 .trabajos h1 {
@@ -158,11 +159,13 @@
 }
 
 .columnas {
+    margin-top: 10vh;
     display: grid;
     justify-content: space-around;
     grid-template-columns: 1fr 1fr 1.5fr;
     grid-template-rows: 60vh auto;
     padding-left: 10%;
+    flex-wrap: wrap;
 }
 
 .col1,
@@ -183,7 +186,7 @@
 }
 
 .columnas ul p {
-    margin: 3vh 1vw;
+    margin: 3vw 1vw;
     font-weight: bold;
     cursor: pointer;
 }
@@ -220,6 +223,7 @@ footer ul {
     display: flex;
     flex-direction: row;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 footer a {
@@ -229,6 +233,8 @@ footer a {
     text-decoration: none;
     letter-spacing: 2px;
     cursor: pointer;
+    margin: 10px 10px;
+    text-align: center;
 }
 
 footer a:nth-child(2),
@@ -237,4 +243,13 @@ footer a:nth-child(4),
 footer a:nth-child(5),
 footer a:nth-child(6) {
     margin-left: 5vw;
+}
+
+@media screen and (max-device-width: 1120px) {
+    .col3 {
+        display: none;
+    }
+    .columnas {
+        grid-template-columns: 1fr 1fr;
+    }
 }
