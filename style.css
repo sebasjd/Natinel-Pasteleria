@@ -85,8 +85,33 @@
     text-align: center;
 }
 
+.trabajos ul {
+    margin-top: 8vh;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.trabajos article {
+    border: solid 3px black;
+    margin: 2vw;
+    width: 350px;
+    min-width: 310px;
+    height: 200px;
+}
+
 
 /*##### CONTACTO####*/
+
+#contacto h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+}
 
 .columnas {
     display: grid;
@@ -140,7 +165,9 @@
 footer {
     display: flex;
     justify-content: space-around;
-    background: black;
+    align-items: center;
+    background: hotpink;
+    height: 10vh;
 }
 
 footer ul {
@@ -152,7 +179,7 @@ footer ul {
 footer a {
     margin: 0;
     bottom: 25%;
-    color: yellow;
+    color: rgb(15, 15, 15);
     text-decoration: none;
     letter-spacing: 2px;
     cursor: pointer;
