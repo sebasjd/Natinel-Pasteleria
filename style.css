@@ -11,6 +11,7 @@
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 8vh auto;
     color: hotpink;
+    font-weight: bold;
 }
 
 .logo,
@@ -66,6 +67,17 @@
     height: 310px;
 }
 
+.inicio span {
+    display: flex;
+    position: relative;
+    top: -30px;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 20px;
+    letter-spacing: .1vw;
+}
+
 .inicio article:first-child {
     background-image: url(./TortaDorada.jpeg);
     background-size: cover;
@@ -77,7 +89,7 @@
 }
 
 .inicio article:nth-child(3) {
-    background-image: url(./CupCake.jpeg);
+    background-image: url(./TortaBombon.jpeg);
     background-size: cover;
 }
 
@@ -87,12 +99,12 @@
 }
 
 .inicio article:nth-child(5) {
-    background-image: url(./CupCake.jpeg);
+    background-image: url(./GalletasUnicornio.jpeg);
     background-size: cover;
 }
 
 .inicio article:nth-child(6) {
-    background-image: url(./CupCake.jpeg);
+    background-image: url(./ArregloShark.jpeg);
     background-size: cover;
 }
 
