@@ -428,4 +428,7 @@ footer a:nth-child(6) {
     .col2 {
         margin-left: 10px;
     }
+    .columnas {
+        justify-content: center;
+    }
 }
