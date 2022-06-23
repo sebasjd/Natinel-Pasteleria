@@ -48,7 +48,7 @@ body {
     margin-bottom: -9px;
     padding-bottom: 5px;
     border-bottom: solid 4px hotpink;
-    text-shadow: 0 0 .5px hotpink, 0 0 .5px hotpink, 0 0 .5px hotpink;
+    text-shadow: 0 0 .6px hotpink, 0 0 .6px hotpink, 0 0 .6px hotpink;
 }
 
 .flotante {
@@ -125,6 +125,33 @@ body {
     text-align: center;
     height: auto;
     letter-spacing: 4px;
+    font-size: 3em;
+    margin-bottom: 5vh;
+}
+
+.inicio .portada {
+    display: flex;
+    grid-template-columns: 4fr 1fr;
+    margin-bottom: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portada p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    margin-left: 20px;
+    max-width: 50vw;
+}
+
+.portada span {
+    width: 40%;
+    background-image: url(./pastelero.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
 }
 
 .inicio ul {
@@ -143,8 +170,8 @@ body {
     height: 310px;
     letter-spacing: 3px;
     border-radius: 10% 0;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.95);
-    ;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.95);
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.3);
 }
 
 .inicio span {
