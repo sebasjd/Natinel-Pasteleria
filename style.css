@@ -169,7 +169,7 @@ body {
 }
 
 .inicio article {
-    margin: 25px 15px;
+    margin: 25px 0;
     min-width: 310px;
     height: 310px;
     letter-spacing: 3px;
