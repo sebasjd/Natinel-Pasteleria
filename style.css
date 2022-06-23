@@ -170,9 +170,8 @@ body {
 
 .inicio article {
     margin: 25px 15px;
-    width: 350px;
     min-width: 310px;
-    height: 350px;
+    height: 310px;
     letter-spacing: 3px;
     border-radius: 10% 0;
     -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.95);
