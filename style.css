@@ -51,6 +51,22 @@ body {
     text-shadow: 0 0 .5px hotpink, 0 0 .5px hotpink, 0 0 .5px hotpink;
 }
 
+.flotante {
+    display: flex;
+    font-weight: bold;
+    position: fixed;
+    bottom: 5vh;
+    right: 10px;
+    background: linear-gradient(90deg, rgba(255, 105, 180, 0.40379901960784315) 0%, rgba(254, 247, 255, 1) 50%, rgba(255, 105, 180, 0.40379901960784315) 100%);
+    border-radius: 25%;
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.77);
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.77);
+    width: 60px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* BOTON */
 
@@ -59,10 +75,12 @@ body {
     height: 6vh;
     width: 6vh;
     position: absolute;
-    background: #065ffc;
+    background: hotpink;
     border-radius: 25% 0;
     right: 15px;
     top: 10px;
+    -webkit-box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
 }
 
 .side-bar span {
@@ -86,23 +104,6 @@ body {
 
 .side-bar span:nth-child(3) {
     top: 35px;
-}
-
-.side-bar.open span:nth-child(1) {
-    transform: rotate(45deg);
-    top: 33px;
-    left: 17px;
-}
-
-.side-bar.open span:nth-child(2) {
-    width: 0;
-    opacity: 0;
-}
-
-.side-bar.open span:nth-child(3) {
-    transform: rotate(-45deg);
-    top: 35px;
-    left: 16px;
 }
 
 
