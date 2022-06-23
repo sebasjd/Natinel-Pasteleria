@@ -422,13 +422,16 @@ footer a:nth-child(6) {
     .columnas,
     .col1,
     .col2 {
-        max-width: 310px;
+        min-width: 80%;
     }
     .col1,
     .col2 {
-        margin-left: 10px;
+        justify-content: center;
     }
     .columnas {
         justify-content: center;
+    }
+    .columnas ul {
+        min-width: 100%;
     }
 }
