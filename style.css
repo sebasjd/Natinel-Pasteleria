@@ -60,37 +60,37 @@ body {
     width: 6vh;
     position: absolute;
     background: #065ffc;
-    border-radius: 15%;
-    right: 100px;
+    border-radius: 25% 0;
+    right: 15px;
     top: 10px;
 }
 
 .side-bar span {
-    height: 5px;
-    width: 5vh;
+    height: 3.5px;
+    width: 4vh;
     display: block;
     background: #000;
     position: absolute;
     background: #fff;
-    left: .5vh;
+    left: 1vh;
     transition: all 0.3s ease-in-out;
 }
 
 .side-bar span:nth-child(1) {
-    top: 35px;
+    top: 15px;
 }
 
 .side-bar span:nth-child(2) {
-    top: 45px;
+    top: 25px;
 }
 
 .side-bar span:nth-child(3) {
-    top: 55px;
+    top: 35px;
 }
 
 .side-bar.open span:nth-child(1) {
     transform: rotate(45deg);
-    top: 43px;
+    top: 33px;
     left: 17px;
 }
 
@@ -101,7 +101,7 @@ body {
 
 .side-bar.open span:nth-child(3) {
     transform: rotate(-45deg);
-    top: 45px;
+    top: 35px;
     left: 16px;
 }
 
