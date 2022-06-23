@@ -417,3 +417,15 @@ footer a:nth-child(6) {
         min-width: 320px;
     }
 }
+
+@media screen and (max-device-width: 1040px) {
+    .columnas,
+    .col1,
+    .col2 {
+        max-width: 310px;
+    }
+    .col1,
+    .col2 {
+        margin-left: 10px;
+    }
+}
