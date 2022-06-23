@@ -427,6 +427,7 @@ footer a:nth-child(6) {
     .col1,
     .col2 {
         justify-content: center;
+        margin-left: 0;
     }
     .columnas {
         justify-content: center;
