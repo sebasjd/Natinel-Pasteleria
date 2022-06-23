@@ -15,7 +15,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 8vh auto;
-    color: hotpink;
+    color: rgb(244, 48, 130);
     font-weight: bold;
     background: rgb(255, 105, 180);
     background: linear-gradient(90deg, rgba(255, 105, 180, 0.40379901960784315) 0%, rgba(254, 247, 255, 1) 50%, rgba(255, 105, 180, 0.40379901960784315) 100%);
@@ -78,7 +78,7 @@ body {
     height: 6vh;
     width: 6vh;
     position: absolute;
-    background: hotpink;
+    background: rgb(244, 48, 130);
     border-radius: 25% 0;
     right: 15px;
     top: 10px;
@@ -359,7 +359,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: hotpink;
+    background: rgb(244, 48, 130);
+    font-weight: bold;
     min-height: 10vh;
     height: auto;
     -webkit-box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
@@ -398,5 +399,12 @@ footer a:nth-child(6) {
     }
     .side-bar {
         display: flex;
+    }
+}
+
+@media screen and (max-device-width: 1125px) {
+    .portada span {
+        min-height: 355px;
+        min-width: 400px;
     }
 }
