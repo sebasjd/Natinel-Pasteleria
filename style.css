@@ -19,6 +19,8 @@ body {
     font-weight: bold;
     background: rgb(255, 105, 180);
     background: linear-gradient(90deg, rgba(255, 105, 180, 0.40379901960784315) 0%, rgba(254, 247, 255, 1) 50%, rgba(255, 105, 180, 0.40379901960784315) 100%);
+    -webkit-box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
 }
 
 .logo,
@@ -39,6 +41,68 @@ body {
 .links a {
     color: hotpink;
     margin-right: 3vw;
+    cursor: pointer;
+}
+
+.links a:hover {
+    margin-bottom: -9px;
+    padding-bottom: 5px;
+    border-bottom: solid 4px hotpink;
+    text-shadow: 0 0 .5px hotpink, 0 0 .5px hotpink, 0 0 .5px hotpink;
+}
+
+
+/* BOTON */
+
+.side-bar {
+    display: none;
+    height: 6vh;
+    width: 6vh;
+    position: absolute;
+    background: #065ffc;
+    border-radius: 15%;
+    right: 100px;
+    top: 10px;
+}
+
+.side-bar span {
+    height: 5px;
+    width: 5vh;
+    display: block;
+    background: #000;
+    position: absolute;
+    background: #fff;
+    left: .5vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.side-bar span:nth-child(1) {
+    top: 35px;
+}
+
+.side-bar span:nth-child(2) {
+    top: 45px;
+}
+
+.side-bar span:nth-child(3) {
+    top: 55px;
+}
+
+.side-bar.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 43px;
+    left: 17px;
+}
+
+.side-bar.open span:nth-child(2) {
+    width: 0;
+    opacity: 0;
+}
+
+.side-bar.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 45px;
+    left: 16px;
 }
 
 
@@ -300,5 +364,8 @@ footer a:nth-child(6) {
 @media screen and (max-device-width: 800px) {
     .links {
         display: none;
+    }
+    .side-bar {
+        display: flex;
     }
 }
