@@ -39,7 +39,7 @@ body {
 }
 
 .links a {
-    color: hotpink;
+    color: rgb(244, 48, 130);
     margin-right: 3vw;
     cursor: pointer;
 }
@@ -47,8 +47,8 @@ body {
 .links a:hover {
     margin-bottom: -9px;
     padding-bottom: 5px;
-    border-bottom: solid 4px hotpink;
-    text-shadow: 0 0 .6px hotpink, 0 0 .6px hotpink, 0 0 .6px hotpink;
+    border-bottom: solid 4px rgb(244, 48, 130);
+    text-shadow: 0 0 .6px rgb(244, 48, 130), 0 0 .6px rgb(244, 48, 130), 0 0 .6px rgb(244, 48, 130);
 }
 
 .flotante {
