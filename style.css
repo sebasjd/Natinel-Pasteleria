@@ -59,18 +59,18 @@
         display: flex;
         font-weight: bold;
         position: sticky;
-        margin-top: 0vh !important;
+        margin-top: 1vh !important;
         background: linear-gradient(90deg, rgba(255, 105, 180, .8) 0%, rgba(254, 247, 255, .8) 50%, rgba(255, 105, 180, .8) 100%);
         border-radius: 25%;
         -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.77);
         box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.77);
-        height: 6vh;
-        width: 11vh;
-        font-size: 3vh;
+        height: 4vh;
+        width: 9vh;
+        font-size: 2.5vh;
         justify-content: center;
         align-items: center;
         z-index: 0;
-        margin-left: 50vw;
+        margin-left: 44vw;
     }
     
     .flotante2 {
@@ -430,9 +430,15 @@
         margin-left: 5vw;
     }
     
+    @media screen and (max-device-widht: 440px) {
+        .flotantes #flotante {
+            margin-left: -100vw;
+        }
+    }
+    
     @media screen and (max-device-widht: 720px) {
-        .inicio .portada {
-            max-height: 750px;
+        .inicio .portada img {
+            max-height: none;
         }
     }
     
