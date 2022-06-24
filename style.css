@@ -18,11 +18,12 @@ body {
     color: rgb(244, 48, 130);
     font-weight: bold;
     background: rgb(255, 105, 180);
-    background: linear-gradient(90deg, rgba(255, 105, 180, 0.40379901960784315) 0%, rgba(254, 247, 255, 1) 50%, rgba(255, 105, 180, 0.40379901960784315) 100%);
+    background: linear-gradient(90deg, rgba(255, 182, 218, 1) 0%, rgba(254, 247, 255, 1) 50%, rgba(255, 182, 218, 1) 100%);
     -webkit-box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
     position: relative;
     z-index: 4;
+    margin-bottom: 5vh;
 }
 
 .logo,
@@ -60,7 +61,6 @@ body {
     position: sticky;
     float: right;
     top: 10px;
-    margin-top: -7vh;
     right: 50%;
     background: linear-gradient(90deg, rgba(255, 105, 180, .8) 0%, rgba(254, 247, 255, .8) 50%, rgba(255, 105, 180, .8) 100%);
     border-radius: 25%;
@@ -71,7 +71,7 @@ body {
     font-size: 3vh;
     justify-content: center;
     align-items: center;
-    z-index: 3;
+    z-index: 0;
 }
 
 
@@ -87,6 +87,7 @@ body {
     border-radius: 25% 0;
     -webkit-box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
+    z-index: 20;
 }
 
 .side-bar span {
@@ -110,6 +111,16 @@ body {
 
 .side-bar span:nth-child(3) {
     top: 4vh;
+}
+
+.flotantes {
+    display: flex;
+    position: sticky;
+    top: 10px;
+    width: 100%;
+    z-index: 10;
+    margin-top: -13vh;
+    margin-bottom: 5vh;
 }
 
 
@@ -179,8 +190,6 @@ body {
     -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.95);
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.3);
 }
-
-.inicio .img {}
 
 .inicio span {
     display: flex;
