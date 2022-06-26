@@ -90,8 +90,121 @@
         justify-content: center;
         align-items: center;
         z-index: 0;
-        margin-left: 50vw;
+        left: 93%;
         margin-bottom: 5vh;
+    }
+    
+    .modal-contenido {
+        background: linear-gradient(90deg, rgba(255, 105, 180, .8) 0%, rgba(254, 247, 255, .8) 50%, rgba(255, 105, 180, .8) 100%);
+        color: #151515;
+        width: 280px;
+        height: 280px;
+        padding: 10px 20px;
+        margin: 15% auto;
+        position: relative;
+        border-radius: 25px;
+    }
+    
+    .modal-contenido .x {
+        margin-left: 95%;
+        color: #151515;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .modal-contenido h2 {
+        margin-left: 23%;
+        margin-bottom: 5px;
+    }
+    
+    .modal-contenido a {
+        color: #151515;
+    }
+    
+    .modal-contenido a:hover {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        text-shadow: 0 0 5px rgb(244, 48, 130);
+        color: #000;
+        transform: scale(1.1);
+    }
+    
+    .modal-contenido img:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    .modal-contenido .opciones {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+        margin-left: 12%;
+        align-items: center;
+    }
+    
+    .modal-contenido .opciones a {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .modal-contenido ul {
+        margin-left: 0;
+    }
+    
+    .modal-contenido input {
+        margin-top: 15px;
+        height: 25px;
+        width: 80%;
+        margin-left: 11%;
+        outline: none;
+        background-color: transparent;
+        border: none;
+        margin-bottom: 15px;
+        border-bottom: 3px solid #151515;
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .modal-contenido input:focus {
+        transform: scale(1.2);
+    }
+    
+    textarea:focus,
+    input:focus,
+    input[type]:focus {
+        outline: none;
+        border-bottom: 3px solid #151515;
+    }
+    
+    input::placeholder {
+        text-align: center;
+        color: rgba(15, 15, 15, 0.6);
+        font-weight: bold;
+    }
+    
+    .modal-contenido img {
+        margin-left: 37%;
+        width: 90px;
+        height: 45px;
+    }
+    
+    .modal {
+        background-color: rgba(15, 15, 15, 0.8);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .5s;
+    }
+    
+    #modal:target {
+        opacity: 1;
+        pointer-events: auto;
     }
     /* BOTON */
     
