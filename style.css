@@ -130,11 +130,6 @@
         transform: scale(1.1);
     }
     
-    .modal-contenido img:hover {
-        transform: scale(1.2);
-        cursor: pointer;
-    }
-    
     .modal-contenido .opciones {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -152,7 +147,8 @@
         margin-left: 0;
     }
     
-    .modal-contenido input {
+    .modal-contenido input:nth-child(1),
+    .modal-contenido input:nth-child(2) {
         margin-top: 15px;
         height: 25px;
         width: 80%;
@@ -184,10 +180,15 @@
         font-weight: bold;
     }
     
-    .modal-contenido img {
+    .modal-contenido .img {
         margin-left: 37%;
         width: 90px;
         height: 45px;
+    }
+    
+    .modal-contenido .img:hover {
+        transform: scale(1.2);
+        cursor: pointer;
     }
     
     .modal {
