@@ -616,3 +616,26 @@
             max-height: 200px;
         }
     }
+    /*#########################
+    ##########################
+    #########################
+
+         Página de registro
+
+         #######################*/
+    
+    .register {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20%;
+    }
+    
+    .register input {
+        display: inline;
+        margin-bottom: 20px;
+    }
+    
+    .register .submit {
+        width: 150px;
+        margin-top: 20px;
+    }
