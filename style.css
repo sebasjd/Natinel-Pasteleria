@@ -259,12 +259,26 @@
     .menu-contenido {
         background: linear-gradient(90deg, rgba(255, 105, 180, .8) 0%, rgba(254, 247, 255, .8) 50%, rgba(255, 105, 180, .8) 100%);
         color: #151515;
-        width: 280px;
-        height: 280px;
+        position: fixed;
+        top: 20px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 85vh;
         padding: 10px 20px;
         margin: 15% auto;
         position: relative;
         border-radius: 25px;
+        display: block;
+    }
+    
+    .menu-contenido ul {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
     }
     
     .menu {
@@ -289,6 +303,7 @@
         color: #151515;
         font-weight: bold;
         font-size: 20px;
+        height: 20px;
     }
     
     .menu-contenido a {
