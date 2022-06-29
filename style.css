@@ -256,8 +256,51 @@
         margin-bottom: 5vh;
     }
     
+    .menu-contenido {
+        background: linear-gradient(90deg, rgba(255, 105, 180, .8) 0%, rgba(254, 247, 255, .8) 50%, rgba(255, 105, 180, .8) 100%);
+        color: #151515;
+        width: 280px;
+        height: 280px;
+        padding: 10px 20px;
+        margin: 15% auto;
+        position: relative;
+        border-radius: 25px;
+    }
+    
+    .menu {
+        background-color: rgba(15, 15, 15, 0.8);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .5s;
+    }
+    
+    #menu:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    
+    .menu-contenido .x {
+        margin-left: 95%;
+        color: #151515;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .menu-contenido a {
+        color: #151515;
+    }
+    
+    .modal-contenido ul {
+        margin-left: 0;
+    }
+    
     .nav .flotante2 {
-        display: none;
+        display: block;
     }
     /* ########################## */
     
@@ -578,7 +621,10 @@
     }
     
     @media screen and (max-device-width: 800px) {
-        .links {
+        .links .contacto,
+        .links .quienes,
+        .links .donde,
+        .links .log {
             display: none;
         }
         .flotante2 {
@@ -615,6 +661,10 @@
             padding: 0;
             max-height: 200px;
         }
+    }
+    
+    .side-bar:active~.flotante {
+        display: none;
     }
     /*#########################
     ##########################
