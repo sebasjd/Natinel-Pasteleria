@@ -692,9 +692,14 @@
          #######################*/
     
     .register {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .register ul {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
     }
     
     .register input {
