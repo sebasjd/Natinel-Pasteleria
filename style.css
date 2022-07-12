@@ -551,6 +551,10 @@
         margin-bottom: 10vh;
     }
     
+    .col4 {
+        margin-left: 0%;
+    }
+    
     .icon {
         display: inline-block;
         font-size: 100px;
