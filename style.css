@@ -534,13 +534,48 @@
     }
     
     .col1,
-    .col2 {
+    .col2,
+    .col3,
+    .col4 {
         display: flex;
         align-items: center;
         margin: 0;
         margin-bottom: 10vh;
         flex-wrap: wrap;
         margin-left: 100px;
+    }
+    
+    .col3,
+    {
+        margin: 0;
+        margin-bottom: 10vh;
+    }
+    
+    .icon {
+        display: inline-block;
+        font-size: 100px;
+        animation: float 1s ease-in-out infinite;
+        margin: 3vh;
+    }
+    
+    .fa-instagram {
+        animation-delay: .1s;
+    }
+    
+    .fa-whatsapp {
+        animation-delay: .2s;
+    }
+    
+    @keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-15px);
+        }
+        100% {
+            transform: translateY(0);
+        }
     }
     
     .columnas ul {
@@ -576,6 +611,14 @@
         min-height: 10vh;
         height: auto;
         -webkit-box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
+        box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
+    }
+    
+    iframe {
+        align-items: center;
+        border-radius: 50%;
+        max-width: 400px;
+        max-height: 400px;
         box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.77);
     }
     
@@ -691,7 +734,8 @@
 
          #######################*/
     
-    .register {
+    .register,
+    .registro h1 {
         display: flex;
         justify-content: center;
     }
@@ -708,6 +752,38 @@
     }
     
     .register .submit {
+        display: flex;
+        position: relative;
+        justify-content: center;
         width: 150px;
-        margin-top: 20px;
+    }
+    
+    .register ul input:nth-child(1),
+    .register ul input:nth-child(2),
+    .register ul input:nth-child(3),
+    .register ul input:nth-child(4),
+    .register ul input:nth-child(5),
+    .register ul input:nth-child(6),
+    .register ul input:nth-child(7) {
+        margin-top: 15px;
+        height: 25px;
+        width: 80%;
+        margin-left: 11%;
+        outline: none;
+        background-color: transparent;
+        border: none;
+        margin-bottom: 15px;
+        border-bottom: 3px solid #151515;
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        color: rgba(244, 48, 130, 1);
+    }
+    
+    .register ul input::placeholder {
+        color: rgba(244, 48, 130, 0.7);
+    }
+    
+    .register ul input:focus {
+        transform: scale(1.2);
     }
