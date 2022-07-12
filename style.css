@@ -721,6 +721,9 @@
             margin: 0;
             margin-bottom: 5vh;
         }
+        .icon {
+            font-size: 30px;
+        }
     }
     
     @media screen and (max-device-widht: 720px) {
