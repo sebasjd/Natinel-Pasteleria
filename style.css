@@ -716,6 +716,11 @@
         .inicio {
             grid-template-rows: 1fr 2fr;
         }
+        .col3,
+        .col4 {
+            margin: 0;
+            margin-bottom: 5vh;
+        }
     }
     
     @media screen and (max-device-widht: 720px) {
