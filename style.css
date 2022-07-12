@@ -723,6 +723,7 @@
         }
         .icon {
             font-size: 80px;
+            text-shadow: 1px 3px 1px rgb(170, 3, 73), 1px 10px 5px rgba(244, 48, 130, 0.667), 0 0 .6px rgb(244, 48, 130);
         }
     }
     
