@@ -556,11 +556,15 @@
         margin-bottom: 10vh;
     }
     
+    .col4 {
+        gap: 8vw;
+    }
+    
     .icon {
         display: inline-block;
         font-size: 100px;
         animation: float 1s ease-in-out infinite;
-        margin: 3vh;
+        margin: 0vh;
         color: #151515;
         text-shadow: 1px 3px 1px rgb(170, 3, 73), 1px 13px 5px rgba(244, 48, 130, 0.667), 0 0 .6px rgb(244, 48, 130);
     }
