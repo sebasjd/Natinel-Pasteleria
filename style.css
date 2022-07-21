@@ -565,12 +565,16 @@
         text-shadow: 1px 3px 1px rgb(170, 3, 73), 1px 13px 5px rgba(244, 48, 130, 0.667), 0 0 .6px rgb(244, 48, 130);
     }
     
-    .fa-instagram {
+    .fa-facebook {
         animation-delay: .1s;
     }
     
-    .fa-whatsapp {
+    .fa-instagram {
         animation-delay: .2s;
+    }
+    
+    .fa-whatsapp {
+        animation-delay: .3s;
     }
     
     @keyframes float {
